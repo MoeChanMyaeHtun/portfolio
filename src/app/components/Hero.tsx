@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
   return (
     <motion.section
       id="home"
-      className="flex items-center lg:mt-16 mt-10 py-60 lg:py-20 min-h-[calc(100vh-4rem)] bg-cover bg-center bg-fixed bg-[url('/img/mobile.png')] lg:bg-[url('/img/01.png')]"
+      className="flex items-center lg:mt-16 mt-10 py-60 lg:py-20 min-h-[calc(100vh-4rem)] bg-cover bg-center lg:bg-fixed bg-[url('/img/mobile.png')] lg:bg-[url('/img/01.png')]"
       variants={sectionVariants}
       initial="hidden"
       animate="visible"
